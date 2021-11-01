@@ -2,7 +2,7 @@
   session_start();
 
   $name = $_POST['name'];
-  $hobby = $_POST['email'];
+  $email = $_POST['email'];
   $gender = $_POST['gender'];
   $_SESSION['name'] = $_POST['name'];
   $_SESSION['email'] = $_POST['email'];
